@@ -8,4 +8,4 @@ Improbable Beef is searching for the elusive bacteria that will provide the perf
 ### Wash Frenquency Per Subject
 ![wfreq](static/images/wfreq.png)
 ### Bacteria Cultures Per Sample
-![bacteria](statis/images/bacteria.png)
+![bacteria](static/images/bacteria.png)
