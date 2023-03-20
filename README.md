@@ -1,1 +1,1 @@
-![title](static/images/title.jpg)
+![title](static/images/title.png)
