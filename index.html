@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Belly Button Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="col-md-8 article-p">
+      <p>Improbable Beef is searching for the elusive bacteria that will provide the perfect taste. Roza believes the ideal bacteria species to make synthetic beef, may be found in the belly button. After gathering all the data from Roza’s research, the Belly Button Biodiversity Dashboard was created. Filtered by Test Subject Identification Number, the subject’s demographic information can be found. Thereafter, the Top 10 Bacteria Cultures are identified using a bar graph for all subjects tested. These results reflect the most common bacteria found was OUT 1167 and the least was OUT 1977. The following section of the dashboard is a gauge graph of each subject’s belly button washing frequency. This graph and data changes change as the various subjects are selected. Lastly, a scatter plot chart shows the bacteria cultures per sample for all subjects tested. This dashboard is an easy way to discover Roza’s research’s results in simple terms. Interested parties would have to select the subject’s ID number to easily find subject-specific data. Data for all subjects tested is shown as well. </p>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/js/charts.js"></script>
+
+</body>
+
+</html>

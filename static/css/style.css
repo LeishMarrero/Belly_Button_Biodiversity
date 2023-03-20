@@ -1,0 +1,18 @@
+body {
+  color: #000000;
+  background-color: lavender;
+}
+
+
+
+.container {
+  font-family: serif, Georgia;
+}
+
+.col-md-12 {
+  font-family: Copperplate, fantasy;
+  background-image: url("../images/6372486.jpg");
+  background-size: auto;
+  text-align: center;
+}
+
